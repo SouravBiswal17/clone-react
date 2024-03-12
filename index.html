@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>react clone</title>
+</head>
+<body>
+    <header>
+        <!-- navbar start here -->
+        <div class="upper">Join us for React Conf on May 15-16.
+            Learn more.
+        </div>
+
+        <div class="navbar2">
+            <i class="fa-solid fa-bars"></i>
+            <div class="logo">
+                <a class="active:scale-95 overflow-hidden transition-transform relative items-center text-primary dark:text-primary-dark p-1 whitespace-nowrap outline-link rounded-full 3xl:rounded-xl inline-flex text-lg font-normal gap-2" href=""><svg width="100%" height="100%" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-sm me-0 w-10 h-10 text-link dark:text-link-dark flex origin-center transition-all ease-in-out"><circle cx="0" cy="0" r="2" fill="rgb(17, 108, 144)"></circle><g stroke="rgb(17, 108, 144)" stroke-width="1" fill="none"><ellipse rx="10" ry="4.5"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg><span class="sr-only 3xl:not-sr-only">React</span></a>
+            </div>
+            <div class="search">
+                <input placeholder="  search" class="search-input">
+            </div>
+                <button id="mode">
+                <i class="fa-regular fa-moon" id="icon"></i>
+                </button>
+                <i class="fa-brands fa-github" id="icon"></i>
+           </div>
+           <div class="navbar">
+            <div class="logo">
+                <a class="active:scale-95 overflow-hidden transition-transform relative items-center text-primary dark:text-primary-dark p-1 whitespace-nowrap outline-link rounded-full 3xl:rounded-xl inline-flex text-lg font-normal gap-2" href=""><svg width="100%" height="100%" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-sm me-0 w-10 h-10 text-link dark:text-link-dark flex origin-center transition-all ease-in-out"><circle cx="0" cy="0" r="2" fill="rgb(17, 108, 144)"></circle><g stroke="rgb(17, 108, 144)" stroke-width="1" fill="none"><ellipse rx="10" ry="4.5"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg><span class="sr-only 3xl:not-sr-only">React</span></a>
+            </div>
+            <div class="search">
+                <input placeholder="  search" class="search-input">
+            </div>
+                <h3>Learn</h3>
+                <h3>Reference</h3>
+                <h3>Community</h3>
+                <h3>Blog</h3>
+                <button id="mode">
+                <i class="fa-regular fa-moon" id="icon"></i>
+                </button>
+                <i class="fa-brands fa-github" id="icon"></i>
+           </div>
+
+         </header>
+    <!-- hero section -->
+    <div class="hero">
+        <div class="heroimg"><svg width="100%" height="100%" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-4 mb-3 text-link dark:text-link-dark w-24 lg:w-28 self-center text-sm me-0 flex origin-center transition-all ease-in-out"><circle cx="0" cy="0" r="2" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1" fill="none"><ellipse rx="10" ry="4.5"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg></div>
+        <div class="hero-content">
+            <h1>React</h1>
+            <h2>The librery for wab and native user interfafces</h2>
+        </div>
+        <div class="buttons">
+            <button id="but">Learn react</button>
+            <button id="but1">API Reference</button>
+        </div>
+    </div>
+    <!-- content section -->
+    <div class="content">
+        <!-- first page -->
+        <div class="section1">
+            <h2>Create user interfaces</h2>
+            <h2>from components</h2>
+        </div>
+        <div class="section2">
+           <p> React lets you build user interfaces out of individual pieces called components. Create your own 
+            React components like
+             Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.</p>
+        </div>
+        <div class="code">
+                <div class="code1"></div>
+                <div class="vedio">
+                    <div id="x">
+                        <div class="y">
+                            
+                                <button class="vedio-button">
+                                    <i class="fa-sharp fa-solid fa-play"></i>
+                                </button>
+                            
+                        </div>
+                        <div>
+                        <h3>My vedio</h3>
+                        <p>vedio description</p>
+                        </div>
+                        <i class="fa-regular fa-heart" id="one"></i>
+                    </div>
+                </div>
+            </div>
+        <div class="section3">
+            <div id="w">
+        <p>Whether you work on your own or with thousands of other developers, using React feels the same.
+            It is designed to let you seamlessly combine
+            components written by independent people, teams, and organizations.</p>
+        </div>
+        </div>
+        <!-- second page -->
+        <div class="section1">
+            <h2>Write components</h2>
+             <h2>with code and markup</h2>
+        </div>
+        <div class="section2">
+            <p>React components are JavaScript functions. Want to show some content 
+            conditionally? Use an if statement. Displaying a list? Try array
+             map(). Learning React is learning programming.</p>
+            </div>
+        <div class="code">
+            <div class="code1"></div>
+            <div class="vedio1"></div>
+        </div>
+        <div class="section3">
+            <p id="w">This markup syntax is called JSX. It is a JavaScript syntax
+             extension popularized by React. Putting JSX markup close to related 
+             rendering logic makes React components easy to create, maintain, and delete.
+            </p></div>
+        <!-- third page -->
+        <div class="section1">
+            <h2>Add interactivity</h2>
+            <h2>wherever you need it</h2>
+        </div>
+        <div class="section2">
+            <p>React components receive data and return what should appear on the screen. 
+                You can pass them new data in response to an interaction, 
+                like when the user types into an input. React will then update the screen to match the new data.</p>
+        </div>
+        <div class="code">
+            <div class="code1"></div>
+            <div class="vedio2"></div>
+        </div>
+        <div class="section3">
+            <p id="w">
+                You don't have to build your whole page in React. Add React to your existing HTML page, and render interactive React components anywhere on it.
+            </p>
+        </div>
+        <div class="build">
+            <div id="base">
+            
+           <p>   Add to React your page </p>
+           <i class="fa-solid fa-arrow-right"></i>
+             </div>
+        </div>
+            
+        <!-- fourth page -->
+        <div class="section1">
+            <h2>Go full-stack </h2>
+            <h2>with a framework</h2>
+        </div>
+        <div class="section2">
+            <p>React is a library. It lets you put components together, but it doesn’t
+                 prescribe how to do routing and data fetching. To build an entire app with React,
+                 we recommend a full-stack React framework like Next.js or Remix.</p>
+        </div>
+            <div class="code">
+            <div class="code1"></div>
+            <div class="vedio3"></div>
+        </div>
+        <div class="section3">
+            <p id="w">React is also an architecture. Frameworks that implement it let you fetch data in asynchronous components that run on the server or even during the build.
+                 Read data from a file or a database, and pass it down to your interactive components.</p>
+        </div> 
+        <div class="build">
+            <div id="base1">
+            <i class="fa-solid fa-laptop"></i>
+           <p> Get started with a Framework </p>
+           <i class="fa-solid fa-arrow-right"></i>
+             </div>
+        </div>
+
+        <!-- fifth page -->
+        <div class="section1">
+            <h2>Use the best</h2>
+            <h2> from every platform</h2>
+        </div>
+        <div class="section2">
+           <p>People love web and native apps for different reasons. React lets you build both web apps 
+            and native apps using the same skills. It leans upon each platform’s 
+            unique strengths to let your interfaces feel just right on every platform.</p>
+        </div>
+        <div class="code2">
+            <div class="example">
+                <div id="a">
+                    <div id="exa">
+                        <i class="fa-solid fa-lock"></i>
+                        <p>example.com</p>
+                    </div>
+                </div>
+                
+                <div id="hea">
+                <h2>Stay true to the web</h2>
+                <p>People expect web app pages to load fast. On the server, React 
+                    lets you start streaming HTML while you’re still
+                     fetching data, progressively filling in the remaining 
+                     content before any JavaScript code loads. On the client,
+                      React can use standard web APIs to keep your UI responsive 
+                      even in the middle of rendering.
+
+                </p>
+            </div>
+            <div class="base-pics">
+                <div class="google"></div>
+                <div class="fire"></div>
+                <div class="compas"></div>
+            </div>
+
+            </div>
+            <div class="android">
+                <div class="time">
+                    <div class="t-time">
+                        <span id="hrs">00</span>
+                        <span>:</span>
+                        <span id="min">00</span>
+                    </div>
+                    <div class="t-icon">
+                    <i class="fa-brands fa-bluetooth-b"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                </div>
+                </div>
+                <div id="written">
+                <h2>Go truly native</h2>
+                <p>People expect native apps to look and feel like their platform. 
+                    React Native and Expo let you build apps in React for Android, iOS, and more.
+                     They look and feel native because their UIs are truly native. It’s not a web view—your React components render real 
+                    Android and iOS views provided by the platform.</p>
+                </div>
+                <div class="base-pics">
+                    <div class="app"></div>
+                    <div class="vir"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="section3">
+            <p id="w">
+                With React, you can be a web and a native developer. Your team can ship to many platforms without sacrificing the user experience. Your organization can
+                 bridge the platform silos, and form teams that own entire features end-to-end.
+            </p>
+        </div>
+        <div class="build">
+            <div id="base">
+            <i class="fa-solid fa-laptop"></i>
+           <p> built for native platform </p>
+           <i class="fa-solid fa-arrow-right"></i>
+             </div>
+        </div>
+        
+        <!-- sixth page -->   
+        <div class="code">
+            <div class="code0">
+                <h2>Upgrade when </h2>
+                <h2>the future is ready</h2>
+                <p>React approaches changes with care. Every React commit is tested on business-critical
+                     surfaces with over a billion users. Over 100,000 
+                    React components at Meta help validate every migration strategy.
+                    </p> <p>The React team is always researching how to improve React. Some research takes
+                     years to pay off. React has a high bar for taking a research idea into production.
+                      Only proven approaches become a part of React.</p>
+
+                    <div class="build1">
+                        <div id="base2">
+                        <i class="fa-solid fa-laptop"></i>
+                       <p> Read more React news</p>
+                       <i class="fa-solid fa-arrow-right"></i>
+                         </div>
+                    </div>
+                    </div>
+            <div class="vedio0">
+                <div class="lab">
+                    <h2>React lab:</h2>
+                    <h2>February 2024</h2>
+                    <p><i class="fa-solid fa-flask"></i>February 5 2024</p>
+                 </div>
+                <div class="lab">
+                    <h2>React Canaries:</h2>
+                    <h2>Incremental</h2>
+                    <h2>Feature Rollout</h2>
+                    <p id="b"><i class="fa-regular fa-address-card"></i> May 3, 2023</p>
+                </div>
+                <div class="lab">
+                    <h2>React lab:</h2>
+                    <h2>March 2023</h2>
+                    <p><i class="fa-solid fa-flask"></i>March 22 2024</p>
+                 </div>
+                 <div class="lab">
+                    <h2>introducing </h2>
+                    <h2>react.dev</h2>
+                    <p> <i class="fa-regular fa-address-card"></i>March 16, 2023</p>
+                </div>
+                </div>
+            </div>
+        <!-- seventh page -->
+            <div class="pre-foot">
+                <h2>Join a community</h2>
+                   <h2> of millions</h2>
+                   <p>You’re not alone. Two million developers from all over the world visit the React</p>
+                   <p>docs every month. React is something that people and teams can agree on.</p>
+            <div class="photo">
+                <div class="photo1" id="e"></div>
+                <div class="photo2" id="e"></div>
+                <div class="photo3" id="e"></div>
+                <div class="photo4" id="e"></div>
+            </div>
+            <div id="c">
+            <p>This is why React is more than a library, an architecture, or even an ecosystem.</p>
+            <p>React is a community. It’s a place where you can ask for help, find opportunities,</p>
+            <p>and meet new friends. You will meet both developers and designers, beginners</p>
+            <p>and experts, researchers and artists, teachers and students. Our backgrounds</p>
+            <p>may be very different, but React lets us all create user interfaces together.</p>
+             </div>
+        </div>
+        </div>  
+    <footer>
+    
+            <div class="logo-foot">
+               <div class="heroimg"><svg width="100%" height="100%" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-4 mb-3 text-link dark:text-link-dark w-24 lg:w-28 self-center text-sm me-0 flex origin-center transition-all ease-in-out"><circle cx="0" cy="0" r="2" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1" fill="none"><ellipse rx="10" ry="4.5"></ellipse>
+                <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse><ellipse rx="10" ry="4.5" 
+                transform="rotate(120)"></ellipse></g></svg></div>
+               </div>
+               <div class="section5">
+               <h2>Welcome to the </h2>
+               <h2> React community</h2>
+               <div class="buttons">
+                <button id="but">Get Started</button>
+                </div>
+            </div>
+               <div class="foot-pannel">
+                <div class="div">
+                    <i class="fa-brands fa-meta"></i>meta open source
+                    <p></p>
+                </div>
+                <div class="div">
+                    <h3>learn React</h3>
+                    <p>Quick start</p>
+                    <p>Installation</p>
+                    <p>Describing the UI</p>
+                    <p>Adding Integrety</p>
+                    <p>Managing state</p>
+                    <p>Escape Hatche</p>
+                </div>
+                <div class="div">
+                    <h3>API Reference</h3>
+                    <p>React APIs</p>
+                    <p>React DOM APIs</p>
+                </div>
+                <div class="div">
+                    <h2>community</h2>
+                    <p>Code of Conduct</p>
+                    <p>Meet the Team</p>
+                    <p>Docs Contributors</p>
+                    <p>Acknowledgements</p>
+                </div>
+                <div class="div">
+                    <h2>More</h2>
+                    <p>Blog</p>
+                    <p>React Native</p>
+                    <p>privicy</p>
+                    <p>Terms</p>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+          </footer>
+    </div>
+ </footer>
+    <script src="script.js"></script>
+</body>
+</html>
